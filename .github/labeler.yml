@@ -1,0 +1,4 @@
+# All changes to documentation and demo folders get the 'documentation' label
+documentation:
+- docs/**
+- demo/**
