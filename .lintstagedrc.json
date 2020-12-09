@@ -1,0 +1,5 @@
+{
+  "*.json": ["prettier --write"],
+  "*.scss": ["prettier --write", "stylelint --syntax=scss"],
+  "*.yml": ["prettier --write"]
+}
