@@ -6,6 +6,7 @@ input.heart {
 
   & + label {
     color: $base-colour;
+    font-size: $base-size;
   }
 
   &:checked + label {
