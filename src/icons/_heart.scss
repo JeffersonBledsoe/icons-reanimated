@@ -17,7 +17,7 @@ input.heart {
 
   // Bubble
   $bubble-size: $base-size + 0.1rem;
-  & + label:before {
+  & + label:hover:before {
     position: absolute;
     top: 50%;
     left: 50%;
