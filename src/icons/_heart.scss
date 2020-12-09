@@ -5,6 +5,7 @@ input.heart {
   left: -100vw;
 
   & + label {
+    position: relative;
     color: $base-colour;
     font-size: $base-size;
     cursor: pointer;
@@ -12,5 +13,20 @@ input.heart {
 
   &:checked + label {
     color: $heart-colour;
+  }
+
+  // Bubble
+  $bubble-size: $base-size + 0.1rem;
+  & + label:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    z-index: -1;
+    content: "";
+    width: $bubble-size;
+    height: $bubble-size;
+    margin: -$bubble-size * 0.5;
+    background-color: green;
   }
 }
