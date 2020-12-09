@@ -1,4 +1,10 @@
+$heart-colour: rgb(224, 36, 94);
+
 input.heart {
   position: absolute;
   left: -100vw;
+
+  &:checked + label {
+    color: $heart-colour;
+  }
 }
