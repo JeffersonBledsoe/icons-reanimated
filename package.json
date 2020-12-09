@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/JeffersonBledsoe/icons-reanimated/issues"
   },
-  "homepage": "https://github.com/JeffersonBledsoe/icons-reanimated#readme"
+  "homepage": "https://github.com/JeffersonBledsoe/icons-reanimated#readme",
+  "devDependencies": {
+    "sass": "^1.30.0"
+  }
 }
