@@ -28,6 +28,7 @@
     "@storybook/addon-backgrounds": "^6.1.10",
     "@storybook/addon-essentials": "^6.1.10",
     "@storybook/addon-links": "^6.1.10",
+    "@storybook/addon-storyshots": "^6.1.10",
     "@storybook/html": "^6.1.10",
     "babel-loader": "^8.2.2",
     "lint-staged": "^10.5.3",
